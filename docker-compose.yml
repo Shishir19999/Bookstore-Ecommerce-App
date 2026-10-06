@@ -1,0 +1,52 @@
+# docker compose up --build   (requires JWT_SECRET in your shell or a .env file next to this file)
+services:
+  mongo:
+    image: mongo:8.0
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./Backend
+      args:
+        INSTALL_DEV: ${INSTALL_DEV:-false}  # true only to run the faker-based seed inside the container
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/bookStore
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET to a long random string}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:8080}
+      # Optional: first-run admin (created only when no admin exists)
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@example.com}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+      # Optional Stripe TEST mode; leave empty to use the mock payment path
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:-}
+    ports:
+      - "5000:5000"
+    volumes:
+      - uploads:/app/uploads
+
+  frontend:
+    build:
+      context: ./Frontend
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:5000}
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  mongo-data:
+  uploads:

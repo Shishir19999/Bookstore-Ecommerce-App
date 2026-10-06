@@ -1,67 +1,70 @@
-import { createContext, useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
-const itemContext = createContext();
+const CART_KEY = "bookstore_cart";
+const MAX_QTY = 20; // matches server limit
 
-// creating custom provider
-function CustomItemContext({ children }) {
-  const [products, setProducts] = useState([]);
-  const [cart, setCart] = useState([]);
-  const [itemsInCart, setItemsInCart] = useState(0);
-  const [totalPrice, setTotalPrice] = useState(0);
+import { ItemCtx } from "./itemContextObject";
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch("http://localhost:5000/api/books");
-      const products = await response.json();
-      console.log(products);
-      setProducts(products);
-    };
-
-    fetchData();
-  }, []);
-
-  const addToCart = (product) => {
-    setTotalPrice((prev) => prev + product.price);
-    setCart((prevCart) => [...prevCart, product]);
-    setItemsInCart((prevCount) => prevCount + 1);
-  };
-
-  const removeFromCart = (product) => {
-  setCart((prevCart) => {
-    const index = prevCart.findIndex((prdt) => prdt._id === product._id);
-    if (index === -1) return prevCart; // item not found, no change
-
-    const updatedCart = [...prevCart];
-    updatedCart.splice(index, 1);
-
-    // Calculate new total price and items count
-    const newTotalPrice = updatedCart.reduce((sum, item) => sum + item.price, 0);
-    const newItemsInCart = updatedCart.length;
-
-    // Update related states based on new cart
-    setTotalPrice(newTotalPrice);
-    setItemsInCart(newItemsInCart);
-
-    return updatedCart;
-  });
+const loadCart = () => {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CART_KEY));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 };
 
+// Cart lines: { _id, title, price, image, qty }.
+// Prices here are for display only; the server recomputes totals from the DB.
+function CustomItemContext({ children }) {
+  const [cart, setCart] = useState(loadCart);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    } catch {
+      /* storage unavailable */
+    }
+  }, [cart]);
+
+  const addToCart = (book) =>
+    setCart((prev) => {
+      const line = prev.find((l) => l._id === book._id);
+      if (line) {
+        return prev.map((l) =>
+          l._id === book._id ? { ...l, qty: Math.min(l.qty + 1, MAX_QTY) } : l
+        );
+      }
+      const { _id, title, price, image } = book;
+      return [...prev, { _id, title, price, image, qty: 1 }];
+    });
+
+  // Removes one unit; the line disappears at zero
+  const removeFromCart = (book) =>
+    setCart((prev) =>
+      prev.flatMap((l) =>
+        l._id !== book._id ? [l] : l.qty > 1 ? [{ ...l, qty: l.qty - 1 }] : []
+      )
+    );
+
+  const removeLine = (book) => setCart((prev) => prev.filter((l) => l._id !== book._id));
+  const clearCart = () => setCart([]);
+
+  const { itemsInCart, totalPrice } = useMemo(
+    () => ({
+      itemsInCart: cart.reduce((n, l) => n + l.qty, 0),
+      totalPrice: cart.reduce((sum, l) => sum + l.price * l.qty, 0),
+    }),
+    [cart]
+  );
 
   return (
-    <itemContext.Provider
-      value={{
-        products,
-        cart,             // Added cart here
-        addToCart,
-        removeFromCart,
-        itemsInCart,
-        totalPrice,
-      }}
+    <ItemCtx.Provider
+      value={{ cart, addToCart, removeFromCart, removeLine, clearCart, itemsInCart, totalPrice }}
     >
       {children}
-    </itemContext.Provider>
+    </ItemCtx.Provider>
   );
 }
 
-export { itemContext };
 export default CustomItemContext;

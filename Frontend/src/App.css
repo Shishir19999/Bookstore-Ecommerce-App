@@ -109,9 +109,27 @@ h2 {
     color: brown;
 }
 
-.gfg {
+.title {
     background-color: green;
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
 }
+/* auth, detail, pagination, messages */
+.user-menu { display: flex; gap: 12px; align-items: center; }
+.form-card { display: flex; flex-direction: column; gap: 12px; max-width: 360px; margin: 24px auto; padding: 16px; border: 1px solid #ddd; border-radius: 8px; }
+.form-card label { display: flex; flex-direction: column; gap: 4px; }
+.error { color: #b00020; text-align: center; }
+.msg { text-align: center; }
+.notice { background: #fff3cd; padding: 8px; border-radius: 6px; }
+.pagination { display: flex; gap: 12px; justify-content: center; align-items: center; padding: 12px; }
+.book-detail { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; padding: 16px; }
+.detail-image { width: 280px; height: 280px; object-fit: cover; border-radius: 10px; }
+.cart-page { max-width: 640px; margin: 0 auto; padding: 0 16px; }
+.order-card { border: 1px solid #ddd; border-radius: 8px; padding: 8px 16px; margin-bottom: 12px; }
+.item-card { list-style: none; padding: 0; }
+
+/* admin */
+.admin-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.admin-table th, .admin-table td { border: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+.form-card textarea, .form-card input { font: inherit; }
