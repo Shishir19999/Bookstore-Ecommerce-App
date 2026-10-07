@@ -1,0 +1,1 @@
+var e=[{role:`admin`,name:`Admin Demo`,email:`admin@example.com`,password:`Password123!`},{role:`user`,name:`Demo User`,email:`user@example.com`,password:`Password123!`}];export{e as t};

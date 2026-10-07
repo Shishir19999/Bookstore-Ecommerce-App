@@ -1,0 +1,1 @@
+import{T as e,p as t}from"./hooks-DlHb01q3.js";var n=t();function r(){return(0,n.jsx)(`nav`,{className:`admin-nav`,"aria-label":`Admin sections`,children:[[`/admin/dashboard`,`Dashboard`],[`/admin/books`,`Books`],[`/admin/orders`,`Orders`],[`/admin/coupons`,`Coupons`]].map(([t,r])=>(0,n.jsx)(e,{to:t,className:({isActive:e})=>`chip ${e?`on`:``}`,children:r},t))})}export{r as t};
