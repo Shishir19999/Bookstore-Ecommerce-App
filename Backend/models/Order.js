@@ -13,7 +13,11 @@ const orderSchema = new mongoose.Schema(
 				qty: { type: Number, required: true, min: 1 },
 			},
 		],
+		subtotal: Number,
+		discount: { type: Number, default: 0 },
+		couponCode: String,
 		total: { type: Number, required: true },
+		shipping: { name: String, address: String, city: String, postalCode: String },
 		// 'paid (mock)' = mock payment path (no provider); 'pending (stripe)' -> 'paid (stripe)' via webhook.
 		paymentStatus: { type: String, default: 'paid (mock)' },
 		stripeSessionId: { type: String, index: true, sparse: true },

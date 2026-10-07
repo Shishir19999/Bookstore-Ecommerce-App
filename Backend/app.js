@@ -18,6 +18,9 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/books', require('./routes/books'));
 app.use('/api/orders', require('./routes/orders'));
 app.use('/api/payments', payments);
+app.use('/api/me', require('./routes/me'));
+app.use('/api/coupons', require('./routes/coupons'));
+app.use('/api/admin/coupons', require('./routes/coupons').admin);
 app.use('/api/admin', require('./routes/admin'));
 
 app.use('/api', (req, res) => res.status(404).json({ error: 'Not found' }));
