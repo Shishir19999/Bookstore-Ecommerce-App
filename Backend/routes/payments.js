@@ -1,7 +1,8 @@
 const express = require('express');
 const Order = require('../models/Order');
 const auth = require('../middleware/auth');
-const { priceCart } = require('../lib/pricing');
+const { priceCart, reserveStock, releaseStock, cleanShipping, HttpError } = require('../lib/pricing');
+const { resolveCoupon, redeem, unredeem, unredeemByCode, round2 } = require('../lib/coupons');
 const { getStripe } = require('../lib/stripe');
 
 const router = express.Router();
@@ -15,23 +16,35 @@ router.get('/config', (req, res) => res.json({ mode: getStripe(req.app) ? 'strip
 // Not configured   -> MOCK path: order is created as 'paid (mock)'; returns { mode:'mock', order }.
 router.post('/checkout', auth, async (req, res, next) => {
 	try {
-		const { lines, total } = await priceCart(req.body?.items);
+		const { lines, total: subtotal } = await priceCart(req.body?.items);
+		const { coupon, discount } = await resolveCoupon(req.body?.couponCode, subtotal);
+		const total = round2(subtotal - discount);
+		const money = { subtotal, discount, couponCode: coupon?.code };
+		const shipping = cleanShipping(req.body?.shipping);
 		const stripe = getStripe(req.app);
+		await reserveStock(lines);
+		if (!(await redeem(coupon))) {
+			await releaseStock(lines);
+			throw new HttpError(400, 'This coupon has been fully redeemed');
+		}
 		if (!stripe) {
-			const order = await Order.create({ user: req.user._id, items: lines, total, paymentStatus: 'paid (mock)' });
+			const order = await Order.create({ user: req.user._id, items: lines, total, ...money, paymentStatus: 'paid (mock)', shipping });
 			return res.status(201).json({ mode: 'mock', order });
 		}
-		const order = await Order.create({ user: req.user._id, items: lines, total, paymentStatus: 'pending (stripe)' });
+		const order = await Order.create({ user: req.user._id, items: lines, total, ...money, paymentStatus: 'pending (stripe)', shipping });
 		try {
+			const currency = process.env.STRIPE_CURRENCY || 'usd';
+			const discounts = discount > 0 ? [{ coupon: (await stripe.coupons.create({ amount_off: Math.round(discount * 100), currency, duration: 'once' })).id }] : undefined;
 			const session = await stripe.checkout.sessions.create({
 				mode: 'payment',
+				discounts,
 				client_reference_id: String(order._id),
 				customer_email: req.user.email,
 				metadata: { orderId: String(order._id) },
 				line_items: lines.map((l) => ({
 					quantity: l.qty,
 					price_data: {
-						currency: process.env.STRIPE_CURRENCY || 'usd',
+						currency,
 						unit_amount: Math.round(l.price * 100),
 						product_data: { name: l.title },
 					},
@@ -44,6 +57,8 @@ router.post('/checkout', auth, async (req, res, next) => {
 			res.status(201).json({ mode: 'stripe', url: session.url, orderId: order._id });
 		} catch (err) {
 			await Order.deleteOne({ _id: order._id });
+			await releaseStock(lines);
+			await unredeem(coupon);
 			throw err;
 		}
 	} catch (err) {
@@ -68,10 +83,14 @@ async function webhook(req, res) {
 		if (orderId && event.type === 'checkout.session.completed' && session.payment_status === 'paid') {
 			await Order.updateOne({ _id: orderId }, { $set: { paymentStatus: 'paid (stripe)' } });
 		} else if (orderId && event.type === 'checkout.session.expired') {
-			await Order.updateOne(
+			const expired = await Order.findOneAndUpdate(
 				{ _id: orderId, paymentStatus: 'pending (stripe)' },
 				{ $set: { paymentStatus: 'expired (stripe)', status: 'cancelled' } }
 			);
+			if (expired) {
+				await releaseStock(expired.items);
+				await unredeemByCode(expired.couponCode);
+			}
 		}
 		res.json({ received: true });
 	} catch (err) {

@@ -1,0 +1,2580 @@
+{
+ "books": [
+  {
+   "title": "The Lantern of Orrin Vale",
+   "author": "Maren Ashdown",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "A lamplighter's apprentice discovers that every lantern in her city burns with a borrowed memory. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Ila counted the stairs the way Ila always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, Marrow Street was beginning to glow.",
+   "price": 12.99,
+   "stock": 3,
+   "pages": 167,
+   "sold": 15,
+   "publishedAt": "2026-09-27T12:00:00.000Z",
+   "image": "",
+   "rating": 4.4,
+   "numReviews": 5
+  },
+  {
+   "title": "Crown of Salt and Thorn",
+   "author": "Maren Ashdown",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "Two rival heirs share one throne and one curse, and neither can leave the sea-cliff keep alone. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Anya counted the stairs the way Anya always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, the old observatory was beginning to glow.",
+   "price": 9.99,
+   "stock": 43,
+   "pages": 509,
+   "sold": 47,
+   "publishedAt": "2026-03-16T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "The Cartographer's Dragon",
+   "author": "Idris Wolfe",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "A mapmaker is hired to chart a mountain that moves whenever nobody is looking. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Corin counted the stairs the way Corin always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, Hollin Ridge was beginning to glow.",
+   "price": 13.99,
+   "stock": 79,
+   "pages": 301,
+   "sold": 258,
+   "publishedAt": "2025-06-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 4
+  },
+  {
+   "title": "Ember Court",
+   "author": "Idris Wolfe",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "In a palace built inside a sleeping volcano, a cupbearer learns the court's oldest secret is still warm. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Soren counted the stairs the way Soren always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, Marrow Street was beginning to glow.",
+   "price": 21.99,
+   "stock": 41,
+   "pages": 204,
+   "sold": 456,
+   "publishedAt": "2025-10-06T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "La Sombra del Cuervo Blanco",
+   "author": "Lucía Marén",
+   "genre": "Fantasy",
+   "language": "Spanish",
+   "description": "Una joven herborista cruza el bosque prohibido para devolver un nombre robado a su dueño. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Anya counted the stairs the way Anya always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, the lower market was beginning to glow.",
+   "price": 23.99,
+   "stock": 51,
+   "pages": 223,
+   "sold": 275,
+   "publishedAt": "2025-11-28T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "The Hollow Oak Chronicles",
+   "author": "Tamsin Reeve",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "Four siblings inherit a tree whose door opens onto a different season every night. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Bram counted the stairs the way Bram always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, the river gate was beginning to glow.",
+   "price": 15.99,
+   "stock": 31,
+   "pages": 303,
+   "sold": 18,
+   "publishedAt": "2025-05-25T12:00:00.000Z",
+   "image": "",
+   "rating": 4.6,
+   "numReviews": 5
+  },
+  {
+   "title": "The Thirteenth Bell of Hollin",
+   "author": "Tamsin Reeve",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "When the thirteenth bell rings for the first time, a ferryman must carry its echo across the river. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Marit counted the stairs the way Marit always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, the river gate was beginning to glow.",
+   "price": 9.99,
+   "stock": 50,
+   "pages": 482,
+   "sold": 336,
+   "publishedAt": "2026-01-14T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "Wardens of the Ashen Road",
+   "author": "Idris Wolfe",
+   "genre": "Fantasy",
+   "language": "English",
+   "description": "A caravan guard and a runaway scribe cross a kingdom that rewrites its borders overnight. A richly imagined adventure with a warm heart and a map worth studying.",
+   "excerpt": "Corin counted the stairs the way Corin always did, because the tower had never once given the same number twice. Sixty-one tonight. Somewhere above, a door that had been locked for a hundred years was quietly deciding to open.\n\n\"You are late,\" said the voice on the landing, and it did not sound like anyone who had ever been early. Below, the lower market was beginning to glow.",
+   "price": 20.99,
+   "stock": 19,
+   "pages": 355,
+   "sold": 134,
+   "publishedAt": "2026-06-07T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 5
+  },
+  {
+   "title": "Orbit of Quiet Machines",
+   "author": "Anselm Kade",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "Aboard a failing station, the maintenance mind must decide which of the crew to keep awake. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Bram noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Bram said, and the station answered, politely, with a question of its own. Outside the viewport, the old observatory was exactly where it should not have been.",
+   "price": 17.99,
+   "stock": 52,
+   "pages": 214,
+   "sold": 628,
+   "publishedAt": "2026-05-15T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "The Tidewater Protocol",
+   "author": "Priya Nandakumar",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "When the oceans of a colony world begin sending messages, a linguist has nine days to answer. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Corin noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Corin said, and the station answered, politely, with a question of its own. Outside the viewport, Hollin Ridge was exactly where it should not have been.",
+   "price": 16.99,
+   "stock": 43,
+   "pages": 309,
+   "sold": 283,
+   "publishedAt": "2026-09-18T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 2
+  },
+  {
+   "title": "Last Signal from Kepler Road",
+   "author": "Anselm Kade",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "A long-haul courier hears her own voice on a frequency that has been silent for forty years. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Anya noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Anya said, and the station answered, politely, with a question of its own. Outside the viewport, the lower market was exactly where it should not have been.",
+   "price": 19.99,
+   "stock": 51,
+   "pages": 240,
+   "sold": 568,
+   "publishedAt": "2025-12-08T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "Glass Horizon",
+   "author": "Priya Nandakumar",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "A terraforming engineer finds that the new sky is hiding something older than the planet. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Soren noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Soren said, and the station answered, politely, with a question of its own. Outside the viewport, the river gate was exactly where it should not have been.",
+   "price": 14.99,
+   "stock": 3,
+   "pages": 216,
+   "sold": 471,
+   "publishedAt": "2026-03-04T12:00:00.000Z",
+   "image": "",
+   "rating": 3.5,
+   "numReviews": 2
+  },
+  {
+   "title": "Les Jardins de Mars",
+   "author": "Étienne Vasseur",
+   "genre": "Science Fiction",
+   "language": "French",
+   "description": "Dans une colonie de serres, un botaniste découvre que les plantes se souviennent de tout. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Anya noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Anya said, and the station answered, politely, with a question of its own. Outside the viewport, the north terminal was exactly where it should not have been.",
+   "price": 16.99,
+   "stock": 76,
+   "pages": 457,
+   "sold": 433,
+   "publishedAt": "2025-06-20T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "Seventeen Minutes of Daylight",
+   "author": "Noor Haddad",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "On a tidally locked world, a surveyor races the edge of the night to reach a lost expedition. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Soren noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Soren said, and the station answered, politely, with a question of its own. Outside the viewport, the lower market was exactly where it should not have been.",
+   "price": 17.99,
+   "stock": 34,
+   "pages": 124,
+   "sold": 598,
+   "publishedAt": "2025-09-04T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "The Long Quiet Between Stars",
+   "author": "Noor Haddad",
+   "genre": "Science Fiction",
+   "language": "English",
+   "description": "A generation ship’s archivist uncovers the one decision its founders chose to forget. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Marit noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Marit said, and the station answered, politely, with a question of its own. Outside the viewport, the salt flats was exactly where it should not have been.",
+   "price": 12.99,
+   "stock": 36,
+   "pages": 323,
+   "sold": 253,
+   "publishedAt": "2025-11-15T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "Cities of Borrowed Light",
+   "author": "Étienne Vasseur",
+   "genre": "Science Fiction",
+   "language": "French",
+   "description": "Dans une métropole orbitale, une électricienne suit un courant qui n’appartient à personne. Thoughtful, character-led science fiction with ideas that linger long after the last page.",
+   "excerpt": "The first thing Quill noticed was that the corridor lights were pretending to be morning. The second was that nobody had authorised it.\n\n\"Status,\" Quill said, and the station answered, politely, with a question of its own. Outside the viewport, the north terminal was exactly where it should not have been.",
+   "price": 18.99,
+   "stock": 34,
+   "pages": 201,
+   "sold": 639,
+   "publishedAt": "2026-06-01T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "The Clockmaker's Alibi",
+   "author": "Harriet Lowell",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "Every clock in the village stopped at 9:42, and only one man admits he was not looking. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Anya stood under the awning near the river gate and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Anya. People who lie about who they are rarely lie about how they spell.",
+   "price": 9.99,
+   "stock": 55,
+   "pages": 458,
+   "sold": 55,
+   "publishedAt": "2026-07-15T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 4
+  },
+  {
+   "title": "Murder at Lantern Pier",
+   "author": "Harriet Lowell",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "A seaside carnival, a missing mask and a detective who is afraid of Ferris wheels. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Marit stood under the awning near the river gate and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Marit. People who lie about who they are rarely lie about how they spell.",
+   "price": 11.99,
+   "stock": 79,
+   "pages": 210,
+   "sold": 57,
+   "publishedAt": "2026-06-15T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 4
+  },
+  {
+   "title": "A Quiet Inquest",
+   "author": "Oswin Brandt",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "A retired coroner reopens the one case she signed off too quickly. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Soren stood under the awning near the river gate and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Soren. People who lie about who they are rarely lie about how they spell.",
+   "price": 16.99,
+   "stock": 69,
+   "pages": 386,
+   "sold": 118,
+   "publishedAt": "2026-09-05T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "Der Schatten im Archiv",
+   "author": "Katarina Lenz",
+   "genre": "Mystery",
+   "language": "German",
+   "description": "Eine Archivarin findet einen Brief, der einen längst gelösten Mordfall neu aufrollt. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Corin stood under the awning near the lower market and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Corin. People who lie about who they are rarely lie about how they spell.",
+   "price": 20.99,
+   "stock": 43,
+   "pages": 470,
+   "sold": 113,
+   "publishedAt": "2026-07-18T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 2
+  },
+  {
+   "title": "The Ninth Guest",
+   "author": "Oswin Brandt",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "Eight invitations were sent. Nine people sat down to dinner. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Bram stood under the awning near the river gate and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Bram. People who lie about who they are rarely lie about how they spell.",
+   "price": 11.99,
+   "stock": 12,
+   "pages": 124,
+   "sold": 30,
+   "publishedAt": "2026-08-03T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 5
+  },
+  {
+   "title": "Salt Marsh Ledger",
+   "author": "Harriet Lowell",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "An auditor follows a trail of doctored tide tables to a crime nobody wanted found. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Anya stood under the awning near the lower market and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Anya. People who lie about who they are rarely lie about how they spell.",
+   "price": 23.99,
+   "stock": 28,
+   "pages": 105,
+   "sold": 278,
+   "publishedAt": "2025-08-02T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "The Lamplighter’s Ledger",
+   "author": "Katarina Lenz",
+   "genre": "Mystery",
+   "language": "German",
+   "description": "Ein Buchhalter bemerkt, dass jede Straßenlaterne der Stadt nach einem Todesfall gewartet wurde. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Wren stood under the awning near the salt flats and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Wren. People who lie about who they are rarely lie about how they spell.",
+   "price": 15.99,
+   "stock": 4,
+   "pages": 296,
+   "sold": 131,
+   "publishedAt": "2026-02-23T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 4
+  },
+  {
+   "title": "Tea at the Quarry House",
+   "author": "Oswin Brandt",
+   "genre": "Mystery",
+   "language": "English",
+   "description": "A long weekend, six guests and one stopped pocket watch at the edge of the quarry. A carefully plotted puzzle that plays fair with the reader and keeps the tension steady.",
+   "excerpt": "It was the kind of rain that makes witnesses forgetful. Quill stood under the awning near the north terminal and read the note again: four lines, no signature, and a spelling mistake that no educated person would make by accident.\n\nThat, more than the body, was what bothered Quill. People who lie about who they are rarely lie about how they spell.",
+   "price": 19.99,
+   "stock": 66,
+   "pages": 322,
+   "sold": 212,
+   "publishedAt": "2026-07-21T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "Letters to the Lighthouse Keeper",
+   "author": "Clara Whitmore",
+   "genre": "Romance",
+   "language": "English",
+   "description": "Two strangers trade letters through a stormy winter without ever learning each other's names. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Quill had rehearsed the conversation on the whole walk to the salt flats, and then the door opened and every sentence left at once. \"I was just passing,\" Quill said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 10.99,
+   "stock": 14,
+   "pages": 222,
+   "sold": 237,
+   "publishedAt": "2025-04-01T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 4
+  },
+  {
+   "title": "The Spring We Almost Missed",
+   "author": "Clara Whitmore",
+   "genre": "Romance",
+   "language": "English",
+   "description": "A baker and a bridge inspector keep meeting at the wrong moment, until the bridge closes. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Quill had rehearsed the conversation on the whole walk to the old observatory, and then the door opened and every sentence left at once. \"I was just passing,\" Quill said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 14.99,
+   "stock": 65,
+   "pages": 284,
+   "sold": 57,
+   "publishedAt": "2025-05-19T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 3
+  },
+  {
+   "title": "Second Chances at Maple Row",
+   "author": "Dana Okafor",
+   "genre": "Romance",
+   "language": "English",
+   "description": "A returning pastry chef opens a shop across from the man who once wrote her the perfect apology. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Anya had rehearsed the conversation on the whole walk to the river gate, and then the door opened and every sentence left at once. \"I was just passing,\" Anya said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 14.99,
+   "stock": 46,
+   "pages": 269,
+   "sold": 16,
+   "publishedAt": "2026-02-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "Monsoon Hearts",
+   "author": "Ishani Rao",
+   "genre": "Romance",
+   "language": "English",
+   "description": "In rain-soaked Mumbai, a late-night radio host gains a listener who seems to know her too well. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Teodor had rehearsed the conversation on the whole walk to the river gate, and then the door opened and every sentence left at once. \"I was just passing,\" Teodor said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 16.99,
+   "stock": 57,
+   "pages": 243,
+   "sold": 26,
+   "publishedAt": "2026-09-03T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "Tea for Two Time Zones",
+   "author": "Dana Okafor",
+   "genre": "Romance",
+   "language": "English",
+   "description": "A long-distance friendship with a translator slowly becomes the closest thing to romance either has known. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Teodor had rehearsed the conversation on the whole walk to Hollin Ridge, and then the door opened and every sentence left at once. \"I was just passing,\" Teodor said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 10.99,
+   "stock": 21,
+   "pages": 486,
+   "sold": 16,
+   "publishedAt": "2025-04-24T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 4
+  },
+  {
+   "title": "Ek Shaam Barish Ki",
+   "author": "Ishani Rao",
+   "genre": "Romance",
+   "language": "Hindi",
+   "description": "बारिश की एक शाम, दो अजनबी और एक अधूरी चिट्ठी जो मंज़िल तक कभी नहीं पहुँची। A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Nell had rehearsed the conversation on the whole walk to Marrow Street, and then the door opened and every sentence left at once. \"I was just passing,\" Nell said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 23.99,
+   "stock": 43,
+   "pages": 424,
+   "sold": 785,
+   "publishedAt": "2025-05-08T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 3
+  },
+  {
+   "title": "The Bookbinder’s Promise",
+   "author": "Dana Okafor",
+   "genre": "Romance",
+   "language": "English",
+   "description": "A restorer finds a pressed flower in an old atlas and sets out to find who left it. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Anya had rehearsed the conversation on the whole walk to the north terminal, and then the door opened and every sentence left at once. \"I was just passing,\" Anya said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 21.99,
+   "stock": 62,
+   "pages": 434,
+   "sold": 61,
+   "publishedAt": "2026-06-16T12:00:00.000Z",
+   "image": "",
+   "rating": 4.4,
+   "numReviews": 5
+  },
+  {
+   "title": "Under the Same Umbrella",
+   "author": "Ishani Rao",
+   "genre": "Romance",
+   "language": "English",
+   "description": "Two commuters share a single umbrella every monsoon morning and one unspoken rule. A tender, witty love story about timing, courage and the people who wait for us.",
+   "excerpt": "Marit had rehearsed the conversation on the whole walk to the old observatory, and then the door opened and every sentence left at once. \"I was just passing,\" Marit said, which was false, and both of them knew it.\n\nHe smiled the way people do when they have decided to be kind about a small lie. \"Then you will want to come in out of the weather.\"",
+   "price": 20.99,
+   "stock": 12,
+   "pages": 373,
+   "sold": 15,
+   "publishedAt": "2025-08-16T12:00:00.000Z",
+   "image": "",
+   "rating": 4.4,
+   "numReviews": 5
+  },
+  {
+   "title": "The Cartwright's Daughter",
+   "author": "Edmund Hale",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "In 1840s Lancashire a mill-town girl teaches herself engineering and quietly redesigns the loom. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over Marrow Street, Nell had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 17.99,
+   "stock": 75,
+   "pages": 185,
+   "sold": 55,
+   "publishedAt": "2025-11-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "Winter at Ravenscar Hall",
+   "author": "Edmund Hale",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "A household of servants keeps a duchess's secret through the coldest winter on record. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the harbour district, Quill had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 9.99,
+   "stock": 2,
+   "pages": 225,
+   "sold": 234,
+   "publishedAt": "2026-06-12T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 5
+  },
+  {
+   "title": "The Silk Road Cipher",
+   "author": "Layla Farouk",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "A merchant's widow decodes her husband's ledgers to follow his final caravan. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the river gate, Teodor had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 9.99,
+   "stock": 29,
+   "pages": 134,
+   "sold": 844,
+   "publishedAt": "2025-09-11T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "Bells of Old Lisbon",
+   "author": "Tomás Valente",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "The great earthquake of 1755 seen through the eyes of a bell-founder's family. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the river gate, Corin had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 13.99,
+   "stock": 65,
+   "pages": 308,
+   "sold": 158,
+   "publishedAt": "2026-07-02T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "Salt Roads of the Hanse",
+   "author": "Layla Farouk",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "A cog captain and a rune-carver compete for trading rights on the Baltic. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over Hollin Ridge, Quill had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 14.99,
+   "stock": 59,
+   "pages": 506,
+   "sold": 525,
+   "publishedAt": "2026-09-06T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 3
+  },
+  {
+   "title": "Embers of the Paper Palace",
+   "author": "Mei-Lin Chao",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "A court archivist works to save a library in the last days of a dynasty. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the north terminal, Quill had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 14.99,
+   "stock": 31,
+   "pages": 288,
+   "sold": 15,
+   "publishedAt": "2025-07-21T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "The Salt Road to Aldmere",
+   "author": "Edmund Hale",
+   "genre": "Historical Fiction",
+   "language": "English",
+   "description": "In 1370 a young clerk follows a salt merchant’s ledgers across a country recovering from plague. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the lower market, Teodor had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 10.99,
+   "stock": 81,
+   "pages": 448,
+   "sold": 20,
+   "publishedAt": "2026-02-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 4
+  },
+  {
+   "title": "Lamps over the Canal",
+   "author": "Marguerite Dufour",
+   "genre": "Historical Fiction",
+   "language": "French",
+   "description": "Dans l’Amsterdam du XVIIe siècle, une graveuse cache un secret dans chaque planche. Meticulously researched and warmly told, with a setting you can almost smell.",
+   "excerpt": "By the time the bells rang over the north terminal, Wren had already hidden the ledger under the third floorboard from the window. It was not much of a hiding place, but it was the only one the house had left.\n\nOutside, carts were rolling past in the grey light, and everyone in the street pretended not to listen.",
+   "price": 12.99,
+   "stock": 80,
+   "pages": 104,
+   "sold": 453,
+   "publishedAt": "2025-04-17T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 4
+  },
+  {
+   "title": "The Hidden Life of Tide Pools",
+   "author": "Rosalind Pryce",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "A friendly tour of the smallest and toughest ecosystems on the coast. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to Marrow Street at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 12.99,
+   "stock": 26,
+   "pages": 243,
+   "sold": 77,
+   "publishedAt": "2026-07-09T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 4
+  },
+  {
+   "title": "Why Stars Twinkle",
+   "author": "Rosalind Pryce",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "An accessible guide to light, air and the questions children ask about the night sky. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the old observatory at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 19.99,
+   "stock": 24,
+   "pages": 503,
+   "sold": 26,
+   "publishedAt": "2025-08-11T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 5
+  },
+  {
+   "title": "Forest Under Our Feet",
+   "author": "Jonas Ekberg",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "How fungal networks share water, food and warnings across a woodland. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the lower market at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 11.99,
+   "stock": 78,
+   "pages": 543,
+   "sold": 294,
+   "publishedAt": "2026-03-11T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 2
+  },
+  {
+   "title": "A Brief Atlas of Weather",
+   "author": "Jonas Ekberg",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "Maps, myths and measurements of the forces that decide whether you need an umbrella. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the harbour district at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 23.99,
+   "stock": 40,
+   "pages": 115,
+   "sold": 22,
+   "publishedAt": "2025-09-21T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "The Octopus Notebook",
+   "author": "Rosalind Pryce",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "A field journal on intelligence in the most unexpected of animals. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the lower market at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 20.99,
+   "stock": 4,
+   "pages": 168,
+   "sold": 376,
+   "publishedAt": "2025-10-18T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 2
+  },
+  {
+   "title": "Deep Time Walks",
+   "author": "Noor Haddad",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "Ten hikes where the rocks themselves tell the story of the planet's past. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the salt flats at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 10.99,
+   "stock": 43,
+   "pages": 493,
+   "sold": 231,
+   "publishedAt": "2026-09-20T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 2
+  },
+  {
+   "title": "A Field Guide to Quiet Places",
+   "author": "Dr. Leena Varma",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "How to listen to a forest, a tide pool and a city park, and what each one is telling you. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to the north terminal at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 15.99,
+   "stock": 49,
+   "pages": 530,
+   "sold": 34,
+   "publishedAt": "2026-04-03T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 3
+  },
+  {
+   "title": "The Weather Inside a Cloud",
+   "author": "Dr. Leena Varma",
+   "genre": "Science & Nature",
+   "language": "English",
+   "description": "The physics of clouds, explained through one afternoon and a very patient kettle. Clear, vivid explanations for curious readers of any background.",
+   "excerpt": "Walk to Marrow Street at low tide and look down. Within a single step there are more lives going on than in a whole city block, and nearly all of them are busy doing something clever.\n\nThis chapter begins with a simple question: how does anything survive somewhere that is flooded twice a day and baked in between?",
+   "price": 20.99,
+   "stock": 40,
+   "pages": 365,
+   "sold": 26,
+   "publishedAt": "2025-10-05T12:00:00.000Z",
+   "image": "",
+   "rating": 3.5,
+   "numReviews": 2
+  },
+  {
+   "title": "Pragmatic APIs",
+   "author": "Samir Bhatt",
+   "genre": "Technology",
+   "language": "English",
+   "description": "Designing HTTP interfaces that stay understandable for a decade. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when Marrow Street adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 38.99,
+   "stock": 60,
+   "pages": 112,
+   "sold": 715,
+   "publishedAt": "2026-06-22T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "The Humane Interface Handbook",
+   "author": "Joanna Kessler",
+   "genre": "Technology",
+   "language": "English",
+   "description": "Practical design rules for accessible, forgiving software. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the harbour district adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 40.99,
+   "stock": 32,
+   "pages": 498,
+   "sold": 311,
+   "publishedAt": "2025-05-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.8,
+   "numReviews": 5
+  },
+  {
+   "title": "Building with React Hooks",
+   "author": "Samir Bhatt",
+   "genre": "Technology",
+   "language": "English",
+   "description": "A project-driven path from your first component to a production application. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the lower market adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 43.99,
+   "stock": 68,
+   "pages": 373,
+   "sold": 53,
+   "publishedAt": "2025-11-14T12:00:00.000Z",
+   "image": "",
+   "rating": 4.6,
+   "numReviews": 5
+  },
+  {
+   "title": "Databases in Plain Language",
+   "author": "Joanna Kessler",
+   "genre": "Technology",
+   "language": "English",
+   "description": "Indexes, transactions and replication explained without the jargon. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the old observatory adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 45.99,
+   "stock": 55,
+   "pages": 359,
+   "sold": 677,
+   "publishedAt": "2026-07-05T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 5
+  },
+  {
+   "title": "Shipping Small, Shipping Often",
+   "author": "Marcus Delaney",
+   "genre": "Technology",
+   "language": "English",
+   "description": "How small teams release continuously without breaking things. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when Hollin Ridge adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 46.99,
+   "stock": 23,
+   "pages": 513,
+   "sold": 797,
+   "publishedAt": "2025-07-12T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "The Quiet Art of Refactoring",
+   "author": "Marcus Delaney",
+   "genre": "Technology",
+   "language": "English",
+   "description": "Safe, incremental changes that turn tangled code into something readable. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the lower market adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 39.99,
+   "stock": 60,
+   "pages": 106,
+   "sold": 758,
+   "publishedAt": "2025-12-27T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "Testing Without Tears",
+   "author": "Joanna Kessler",
+   "genre": "Technology",
+   "language": "English",
+   "description": "A calm, practical guide to writing tests that save time instead of costing it. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the river gate adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 36.99,
+   "stock": 37,
+   "pages": 542,
+   "sold": 15,
+   "publishedAt": "2026-09-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.3,
+   "numReviews": 3
+  },
+  {
+   "title": "Observability for Small Teams",
+   "author": "Samir Bhatt",
+   "genre": "Technology",
+   "language": "English",
+   "description": "Logs, metrics and traces you can actually afford to run and understand. Hands-on, example-driven advice from people who have shipped real systems.",
+   "excerpt": "Every system you will ever maintain was once someone's clean idea. The trouble starts a year later, when the old observatory adds a requirement that nobody planned for.\n\nIn this chapter we look at one small habit that keeps code flexible when requirements change: write the test that describes the behaviour before you touch the structure.",
+   "price": 35.99,
+   "stock": 2,
+   "pages": 234,
+   "sold": 559,
+   "publishedAt": "2026-02-10T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 3
+  },
+  {
+   "title": "Paper Boats in the Gutter",
+   "author": "Wren Alvarado",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "Poems about childhood summers and the rain that always ends them. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near the river gate\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 9.99,
+   "stock": 65,
+   "pages": 526,
+   "sold": 58,
+   "publishedAt": "2026-02-06T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 2
+  },
+  {
+   "title": "Salt, Ink, Ash",
+   "author": "Wren Alvarado",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "Short lyrics on grief and the stubborn things that grow afterward. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near Marrow Street\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 8.99,
+   "stock": 40,
+   "pages": 240,
+   "sold": 318,
+   "publishedAt": "2025-05-07T12:00:00.000Z",
+   "image": "",
+   "rating": 4.7,
+   "numReviews": 3
+  },
+  {
+   "title": "Lunas de Vidrio",
+   "author": "Lucía Marén",
+   "genre": "Poetry",
+   "language": "Spanish",
+   "description": "Poemas breves sobre ciudades, insomnio y luz de luna. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near the salt flats\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 12.99,
+   "stock": 31,
+   "pages": 455,
+   "sold": 16,
+   "publishedAt": "2025-10-29T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 2
+  },
+  {
+   "title": "Small Hours",
+   "author": "Tamsin Reeve",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "Quiet poems written between midnight and dawn. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near the river gate\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 12.99,
+   "stock": 62,
+   "pages": 135,
+   "sold": 67,
+   "publishedAt": "2025-12-06T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "The Weight of Feathers",
+   "author": "Tamsin Reeve",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "A debut collection about migration and belonging. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near Marrow Street\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 8.99,
+   "stock": 53,
+   "pages": 453,
+   "sold": 61,
+   "publishedAt": "2025-10-23T12:00:00.000Z",
+   "image": "",
+   "rating": 5,
+   "numReviews": 4
+  },
+  {
+   "title": "Seasons of the Kite",
+   "author": "Aarav Menon",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "Haiku-inspired verses on a year of flying kites from a rooftop. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near the north terminal\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 11.99,
+   "stock": 56,
+   "pages": 181,
+   "sold": 16,
+   "publishedAt": "2026-06-23T12:00:00.000Z",
+   "image": "",
+   "rating": 4,
+   "numReviews": 4
+  },
+  {
+   "title": "Ten Windows, One Street",
+   "author": "Aarav Menon",
+   "genre": "Poetry",
+   "language": "English",
+   "description": "Linked poems about the lives behind ten lit windows on a single evening. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near Hollin Ridge\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 9.99,
+   "stock": 21,
+   "pages": 99,
+   "sold": 839,
+   "publishedAt": "2026-05-09T12:00:00.000Z",
+   "image": "",
+   "rating": 4.5,
+   "numReviews": 4
+  },
+  {
+   "title": "Cartas desde el Tren",
+   "author": "Lucía Marén",
+   "genre": "Poetry",
+   "language": "Spanish",
+   "description": "Cartas en verso escritas entre estaciones, para alguien que quizá nunca las lea. Spare, musical and easy to carry in a coat pocket.",
+   "excerpt": "Morning arrives in the kitchen first,\nthe kettle clearing its throat,\nthe window wearing yesterday's rain\nlike a coat it forgot to return.\n\nSomewhere near the north terminal\nsomeone is learning to whistle\nand getting it wrong\nin exactly the right key.",
+   "price": 10.99,
+   "stock": 43,
+   "pages": 549,
+   "sold": 323,
+   "publishedAt": "2026-09-06T12:00:00.000Z",
+   "image": "",
+   "rating": 4.4,
+   "numReviews": 5
+  }
+ ],
+ "reviews": [
+  {
+   "book": 0,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 154
+  },
+  {
+   "book": 0,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 160
+  },
+  {
+   "book": 0,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 66
+  },
+  {
+   "book": 0,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 141
+  },
+  {
+   "book": 0,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 116
+  },
+  {
+   "book": 1,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 28
+  },
+  {
+   "book": 1,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 189
+  },
+  {
+   "book": 1,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 157
+  },
+  {
+   "book": 2,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 29
+  },
+  {
+   "book": 2,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 128
+  },
+  {
+   "book": 2,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 130
+  },
+  {
+   "book": 2,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 83
+  },
+  {
+   "book": 3,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 2
+  },
+  {
+   "book": 3,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 92
+  },
+  {
+   "book": 4,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 80
+  },
+  {
+   "book": 4,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 114
+  },
+  {
+   "book": 5,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 191
+  },
+  {
+   "book": 5,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 141
+  },
+  {
+   "book": 5,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 158
+  },
+  {
+   "book": 5,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 46
+  },
+  {
+   "book": 5,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 116
+  },
+  {
+   "book": 6,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 134
+  },
+  {
+   "book": 6,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 112
+  },
+  {
+   "book": 7,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 40
+  },
+  {
+   "book": 7,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 11
+  },
+  {
+   "book": 7,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 147
+  },
+  {
+   "book": 7,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 90
+  },
+  {
+   "book": 7,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 57
+  },
+  {
+   "book": 8,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 34
+  },
+  {
+   "book": 8,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 119
+  },
+  {
+   "book": 8,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 102
+  },
+  {
+   "book": 9,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 38
+  },
+  {
+   "book": 9,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 78
+  },
+  {
+   "book": 10,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 100
+  },
+  {
+   "book": 10,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 49
+  },
+  {
+   "book": 10,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 96
+  },
+  {
+   "book": 11,
+   "name": "Karan P.",
+   "rating": 3,
+   "text": "Fine for a weekend, but not a favourite.",
+   "daysAgo": 21
+  },
+  {
+   "book": 11,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 69
+  },
+  {
+   "book": 12,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 52
+  },
+  {
+   "book": 12,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 142
+  },
+  {
+   "book": 12,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 30
+  },
+  {
+   "book": 12,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 65
+  },
+  {
+   "book": 13,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 107
+  },
+  {
+   "book": 13,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 157
+  },
+  {
+   "book": 14,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 86
+  },
+  {
+   "book": 14,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 138
+  },
+  {
+   "book": 14,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 155
+  },
+  {
+   "book": 15,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 172
+  },
+  {
+   "book": 15,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 195
+  },
+  {
+   "book": 15,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 184
+  },
+  {
+   "book": 16,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 134
+  },
+  {
+   "book": 16,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 163
+  },
+  {
+   "book": 16,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 98
+  },
+  {
+   "book": 16,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 146
+  },
+  {
+   "book": 17,
+   "name": "Karan P.",
+   "rating": 3,
+   "text": "Decent read, though it did not fully land for me.",
+   "daysAgo": 125
+  },
+  {
+   "book": 17,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 116
+  },
+  {
+   "book": 17,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 174
+  },
+  {
+   "book": 17,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 196
+  },
+  {
+   "book": 18,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 113
+  },
+  {
+   "book": 18,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 70
+  },
+  {
+   "book": 18,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 148
+  },
+  {
+   "book": 19,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 145
+  },
+  {
+   "book": 19,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 19
+  },
+  {
+   "book": 20,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 181
+  },
+  {
+   "book": 20,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 183
+  },
+  {
+   "book": 20,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 24
+  },
+  {
+   "book": 20,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 33
+  },
+  {
+   "book": 20,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 197
+  },
+  {
+   "book": 21,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 156
+  },
+  {
+   "book": 21,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 14
+  },
+  {
+   "book": 21,
+   "name": "Tom B.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 142
+  },
+  {
+   "book": 21,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 88
+  },
+  {
+   "book": 22,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 48
+  },
+  {
+   "book": 22,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 5
+  },
+  {
+   "book": 22,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 199
+  },
+  {
+   "book": 22,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 193
+  },
+  {
+   "book": 23,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 38
+  },
+  {
+   "book": 23,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 145
+  },
+  {
+   "book": 23,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 109
+  },
+  {
+   "book": 23,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 148
+  },
+  {
+   "book": 24,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 183
+  },
+  {
+   "book": 24,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 164
+  },
+  {
+   "book": 24,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 61
+  },
+  {
+   "book": 24,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 120
+  },
+  {
+   "book": 25,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 195
+  },
+  {
+   "book": 25,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 98
+  },
+  {
+   "book": 25,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 195
+  },
+  {
+   "book": 26,
+   "name": "Tom B.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 123
+  },
+  {
+   "book": 26,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 168
+  },
+  {
+   "book": 26,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 141
+  },
+  {
+   "book": 27,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 88
+  },
+  {
+   "book": 27,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 136
+  },
+  {
+   "book": 27,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 34
+  },
+  {
+   "book": 28,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 153
+  },
+  {
+   "book": 28,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 199
+  },
+  {
+   "book": 28,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 17
+  },
+  {
+   "book": 28,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 67
+  },
+  {
+   "book": 29,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 47
+  },
+  {
+   "book": 29,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 35
+  },
+  {
+   "book": 29,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 52
+  },
+  {
+   "book": 30,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 126
+  },
+  {
+   "book": 30,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 81
+  },
+  {
+   "book": 30,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 10
+  },
+  {
+   "book": 30,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 71
+  },
+  {
+   "book": 30,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 49
+  },
+  {
+   "book": 31,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 58
+  },
+  {
+   "book": 31,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 62
+  },
+  {
+   "book": 31,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 82
+  },
+  {
+   "book": 31,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 119
+  },
+  {
+   "book": 31,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 85
+  },
+  {
+   "book": 32,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 19
+  },
+  {
+   "book": 32,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 46
+  },
+  {
+   "book": 32,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 135
+  },
+  {
+   "book": 32,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 5
+  },
+  {
+   "book": 33,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 72
+  },
+  {
+   "book": 33,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 140
+  },
+  {
+   "book": 33,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 107
+  },
+  {
+   "book": 33,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 19
+  },
+  {
+   "book": 33,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 27
+  },
+  {
+   "book": 34,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 32
+  },
+  {
+   "book": 34,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 82
+  },
+  {
+   "book": 34,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 138
+  },
+  {
+   "book": 35,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 3
+  },
+  {
+   "book": 35,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 55
+  },
+  {
+   "book": 35,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 96
+  },
+  {
+   "book": 36,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 49
+  },
+  {
+   "book": 36,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 200
+  },
+  {
+   "book": 36,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 21
+  },
+  {
+   "book": 37,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 90
+  },
+  {
+   "book": 37,
+   "name": "Tom B.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 10
+  },
+  {
+   "book": 37,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 141
+  },
+  {
+   "book": 38,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 24
+  },
+  {
+   "book": 38,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 154
+  },
+  {
+   "book": 38,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 102
+  },
+  {
+   "book": 38,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 141
+  },
+  {
+   "book": 39,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 136
+  },
+  {
+   "book": 39,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 191
+  },
+  {
+   "book": 39,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 5
+  },
+  {
+   "book": 39,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 147
+  },
+  {
+   "book": 40,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 57
+  },
+  {
+   "book": 40,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 29
+  },
+  {
+   "book": 40,
+   "name": "Tom B.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 96
+  },
+  {
+   "book": 40,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 29
+  },
+  {
+   "book": 41,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 120
+  },
+  {
+   "book": 41,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 160
+  },
+  {
+   "book": 41,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 16
+  },
+  {
+   "book": 41,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 10
+  },
+  {
+   "book": 41,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 181
+  },
+  {
+   "book": 42,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 151
+  },
+  {
+   "book": 42,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 88
+  },
+  {
+   "book": 43,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 147
+  },
+  {
+   "book": 43,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 62
+  },
+  {
+   "book": 43,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 13
+  },
+  {
+   "book": 43,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 67
+  },
+  {
+   "book": 44,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 20
+  },
+  {
+   "book": 44,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 19
+  },
+  {
+   "book": 45,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 129
+  },
+  {
+   "book": 45,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 192
+  },
+  {
+   "book": 46,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 117
+  },
+  {
+   "book": 46,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 94
+  },
+  {
+   "book": 46,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 152
+  },
+  {
+   "book": 47,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 68
+  },
+  {
+   "book": 47,
+   "name": "Daniel R.",
+   "rating": 3,
+   "text": "Some lovely passages, some forgettable ones.",
+   "daysAgo": 138
+  },
+  {
+   "book": 48,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 65
+  },
+  {
+   "book": 48,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 90
+  },
+  {
+   "book": 48,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 171
+  },
+  {
+   "book": 48,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 93
+  },
+  {
+   "book": 49,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 137
+  },
+  {
+   "book": 49,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 29
+  },
+  {
+   "book": 49,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 153
+  },
+  {
+   "book": 49,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 58
+  },
+  {
+   "book": 49,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 102
+  },
+  {
+   "book": 50,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 195
+  },
+  {
+   "book": 50,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 182
+  },
+  {
+   "book": 50,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 154
+  },
+  {
+   "book": 50,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 88
+  },
+  {
+   "book": 50,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 109
+  },
+  {
+   "book": 51,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 16
+  },
+  {
+   "book": 51,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 34
+  },
+  {
+   "book": 51,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 7
+  },
+  {
+   "book": 51,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 147
+  },
+  {
+   "book": 51,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 153
+  },
+  {
+   "book": 52,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 85
+  },
+  {
+   "book": 52,
+   "name": "Luis G.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 64
+  },
+  {
+   "book": 53,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 108
+  },
+  {
+   "book": 53,
+   "name": "Priya N.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 70
+  },
+  {
+   "book": 54,
+   "name": "Karan P.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 62
+  },
+  {
+   "book": 54,
+   "name": "Chen Y.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 9
+  },
+  {
+   "book": 54,
+   "name": "Rahul D.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 116
+  },
+  {
+   "book": 55,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 196
+  },
+  {
+   "book": 55,
+   "name": "Meera S.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 131
+  },
+  {
+   "book": 55,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 193
+  },
+  {
+   "book": 56,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 77
+  },
+  {
+   "book": 56,
+   "name": "Hannah W.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 189
+  },
+  {
+   "book": 57,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 146
+  },
+  {
+   "book": 57,
+   "name": "Hannah W.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 100
+  },
+  {
+   "book": 57,
+   "name": "Chen Y.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 152
+  },
+  {
+   "book": 58,
+   "name": "Rahul D.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 128
+  },
+  {
+   "book": 58,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Solid and well paced, and the characters feel real.",
+   "daysAgo": 32
+  },
+  {
+   "book": 59,
+   "name": "Aisha K.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 41
+  },
+  {
+   "book": 59,
+   "name": "Sofia L.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 161
+  },
+  {
+   "book": 59,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 103
+  },
+  {
+   "book": 59,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 50
+  },
+  {
+   "book": 60,
+   "name": "Daniel R.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 108
+  },
+  {
+   "book": 60,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 137
+  },
+  {
+   "book": 60,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 159
+  },
+  {
+   "book": 60,
+   "name": "Karan P.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 100
+  },
+  {
+   "book": 61,
+   "name": "Meera S.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 43
+  },
+  {
+   "book": 61,
+   "name": "Daniel R.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 61
+  },
+  {
+   "book": 61,
+   "name": "Olivia M.",
+   "rating": 4,
+   "text": "Very good, with a couple of slow patches in the middle.",
+   "daysAgo": 139
+  },
+  {
+   "book": 61,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 137
+  },
+  {
+   "book": 62,
+   "name": "Aisha K.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 161
+  },
+  {
+   "book": 62,
+   "name": "Tom B.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 156
+  },
+  {
+   "book": 62,
+   "name": "Priya N.",
+   "rating": 4,
+   "text": "Great value and a lovely edition.",
+   "daysAgo": 198
+  },
+  {
+   "book": 62,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Beautifully written, and the ending stayed with me for days.",
+   "daysAgo": 88
+  },
+  {
+   "book": 63,
+   "name": "Olivia M.",
+   "rating": 5,
+   "text": "Could not put it down. Finished it in two sittings.",
+   "daysAgo": 138
+  },
+  {
+   "book": 63,
+   "name": "Sofia L.",
+   "rating": 4,
+   "text": "Smart and enjoyable. I would happily read more by this author.",
+   "daysAgo": 101
+  },
+  {
+   "book": 63,
+   "name": "Tom B.",
+   "rating": 5,
+   "text": "Exactly what I was hoping for and then some.",
+   "daysAgo": 74
+  },
+  {
+   "book": 63,
+   "name": "Luis G.",
+   "rating": 3,
+   "text": "Fine for a weekend, but not a favourite.",
+   "daysAgo": 191
+  },
+  {
+   "book": 63,
+   "name": "Luis G.",
+   "rating": 5,
+   "text": "A real treat; I have already recommended it to three friends.",
+   "daysAgo": 88
+  }
+ ],
+ "genres": {
+  "Fantasy": "Quests, courts and quietly impossible doors.",
+  "Science Fiction": "Strange worlds, patient machines, honest questions.",
+  "Mystery": "Cold cases, warm tea and one missing clue.",
+  "Romance": "Slow-burn stories for rainy afternoons.",
+  "Historical Fiction": "Other centuries, vividly lived in.",
+  "Science & Nature": "Curious minds, clear explanations.",
+  "Technology": "Practical craft for people who build software.",
+  "Poetry": "Short, honest lines worth rereading."
+ }
+}

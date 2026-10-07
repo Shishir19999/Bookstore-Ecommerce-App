@@ -9,6 +9,15 @@ const userSchema = new mongoose.Schema(
 		role: { type: String, enum: ['user', 'admin'], default: 'user' },
 		// Bumped on logout; JWTs carry the value they were issued with and are rejected when stale.
 		tokenVersion: { type: Number, default: 0 },
+		// Reading list / wishlist with a status per book.
+		readingList: [
+			{
+				_id: false,
+				book: { type: mongoose.Schema.Types.ObjectId, ref: 'Book', required: true },
+				status: { type: String, enum: ['want', 'reading', 'finished'], default: 'want' },
+				addedAt: { type: Date, default: Date.now },
+			},
+		],
 	},
 	{ timestamps: true }
 );
