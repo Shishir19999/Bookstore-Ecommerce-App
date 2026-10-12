@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 import { DEMO } from '../api'
 import { useAuth, useTitle, useToast } from '../hooks'
-import { DEMO_ACCOUNTS } from '../demo/accounts'
+import { PREVIEW_ACCOUNTS, PREVIEW_PASSWORD } from '../demo/accounts'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
-// Login / register form with inline validation. In the browser-only demo the documented demo logins are shown.
+// Login / register form with inline validation. In the browser-only live preview the documented sample logins are shown.
 export default function Auth({ mode }) {
   const register = mode === 'register'
   useTitle(register ? 'Create account' : 'Log in')
@@ -50,7 +50,7 @@ export default function Auth({ mode }) {
   }
 
   const fill = (acc) => {
-    const creds = { name: '', email: acc.email, password: acc.password }
+    const creds = { name: '', email: acc.email, password: PREVIEW_PASSWORD }
     setF(creds)
     submit(null, creds)
   }
@@ -91,17 +91,18 @@ export default function Auth({ mode }) {
           {register ? <>Already have an account? <Link to="/login" state={loc.state}>Log in</Link></> : <>New here? <Link to="/register" state={loc.state}>Create an account</Link></>}
         </p>
         {DEMO && !register && (
-          <div className="demo-logins" aria-label="Demo logins">
-            <strong>Demo logins</strong>
-            <div className="small">These accounts exist only in your browser. Password for both: <code>{DEMO_ACCOUNTS[0].password}</code></div>
-            {DEMO_ACCOUNTS.map((a) => (
+          <div className="demo-logins" aria-label="Sample logins">
+            <strong>Sample logins for the live preview</strong>
+            <div className="small">These accounts exist only in your browser. Password for all: <code>{PREVIEW_PASSWORD}</code></div>
+            {PREVIEW_ACCOUNTS.map((a) => (
               <div className="row between" key={a.email}>
-                <span className="small"><strong>{a.role === 'admin' ? 'Admin' : 'Shopper'}:</strong> <code>{a.email}</code></span>
-                <button type="button" className="btn btn-sm" onClick={() => fill(a)} disabled={busy}>Use {a.role}</button>
+                <span className="small"><strong>{a.label}:</strong> <code>{a.email}</code><br /><span className="muted">{a.blurb}</span></span>
+                <button type="button" className="btn btn-sm" onClick={() => fill(a)} disabled={busy}>Use {a.label.toLowerCase()}</button>
               </div>
             ))}
           </div>
         )}
+
       </div>
     </div>
   )

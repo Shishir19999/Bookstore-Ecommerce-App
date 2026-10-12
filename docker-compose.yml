@@ -14,8 +14,6 @@ services:
   backend:
     build:
       context: ./Backend
-      args:
-        INSTALL_DEV: ${INSTALL_DEV:-false}  # true only to run the faker-based seed inside the container
     restart: unless-stopped
     depends_on:
       mongo:

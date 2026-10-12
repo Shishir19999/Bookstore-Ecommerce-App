@@ -1,9 +1,10 @@
 import { useContext, useEffect, useState } from 'react'
 import { api } from './api'
 import { savedCoupon, saveCoupon } from './lib/coupon'
+import { toItems } from './lib/cart'
 import { AuthCtx } from './context/authContextObject'
 import { ItemCtx } from './context/itemContextObject'
-import { ThemeCtx, ToastCtx, ConfirmCtx, ReadingCtx } from './context/contexts'
+import { ThemeCtx, ToastCtx, ConfirmCtx, ReadingCtx, SettingsCtx } from './context/contexts'
 
 export const useAuth = () => useContext(AuthCtx)
 export const useCart = () => useContext(ItemCtx)
@@ -11,6 +12,7 @@ export const useTheme = () => useContext(ThemeCtx)
 export const useToast = () => useContext(ToastCtx)
 export const useConfirm = () => useContext(ConfirmCtx)
 export const useReading = () => useContext(ReadingCtx)
+export const useSettings = () => useContext(SettingsCtx)
 
 export const SITE = 'Folio Books'
 
@@ -52,12 +54,12 @@ export function useFetch(path, { enabled = true } = {}) {
 export function useCoupon(cart, enabled) {
   const [code, setCode] = useState(savedCoupon)
   const [state, setState] = useState({ discount: 0, info: null, error: '' })
-  const sig = JSON.stringify(cart.map((l) => [l._id, l.qty]))
+  const sig = JSON.stringify(cart.map((l) => [l.key, l.qty]))
 
   useEffect(() => {
     if (!code || !enabled || cart.length === 0) return
     let cancelled = false
-    api('/api/coupons/validate', { method: 'POST', body: { code, items: cart.map((l) => ({ book: l._id, qty: l.qty })) } }).then(
+    api('/api/coupons/validate', { method: 'POST', body: { code, items: toItems(cart) } }).then(
       (r) => !cancelled && setState({ discount: r.discount, info: r.coupon, error: '' }),
       (err) => !cancelled && setState({ discount: 0, info: null, error: err.message })
     )

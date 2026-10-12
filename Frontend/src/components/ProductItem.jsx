@@ -3,21 +3,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import Cover from '../ui/Cover'
 import { Stars } from '../ui/Stars'
+import { FormatChips } from '../ui/Parts'
 import { money, authorPath } from '../lib/format'
+import { anyBuyable, defaultFormat, isPhysical } from '../shared/rules.mjs'
 import { useCart, useReading, useToast } from '../hooks'
 
 const DAY = 86400000
 const NOW = Date.now()
-
-// One book in a grid or strip: cover, title, author, rating, price, add-to-cart and reading-list heart.
+// One book in a grid or strip: cover, title, author, rating, price, editions, add-to-cart and reading-list heart.
 export default function BookCard({ book, badge }) {
   const { addToCart } = useCart()
   const { statusOf, setStatus } = useReading()
   const toast = useToast()
   const saved = !!statusOf(book._id)
-  const isNew = NOW - new Date(book.publishedAt).getTime() < 45 * DAY
-  const tag = badge || (isNew ? 'New' : null)
-
+  const isNew = !book.upcoming && NOW - new Date(book.publishedAt).getTime() < 45 * DAY
+  const tag = badge || (book.upcoming ? 'Pre-order' : isNew ? 'New' : book.series ? `Book ${book.series.number}` : null)
+  const def = defaultFormat(book)
+  const buyable = anyBuyable(book)
   return (
     <li className="card book-card">
       {tag && <span className="tag-corner">{tag}</span>}
@@ -37,21 +39,23 @@ export default function BookCard({ book, badge }) {
         <Link to={`/books/${book._id}`} className="book-title">{book.title}</Link>
         <Link to={authorPath(book.author)} className="book-author">{book.author}</Link>
         <Stars value={book.rating} count={book.numReviews} />
+        <FormatChips book={book} />
         <div className="book-foot">
-          <span className="price">{money(book.price)}</span>
-          {book.stock > 0 ? (
+          <span className="price">{book.formats.length > 1 && book.minPrice < def.price ? <><span className="small muted">from </span>{money(book.minPrice)}</> : money(def.price)}</span>
+          {buyable ? (
             <button
               type="button"
               className="btn btn-primary btn-sm"
+              aria-label={`${book.upcoming ? 'Pre-order' : 'Add'} ${book.title}${isPhysical(def.type) ? '' : ' (' + def.type + ')'} to cart`}
               onClick={() => {
-                addToCart(book)
+                addToCart(book, 1, def.type)
                 toast.success(`Added "${book.title}" to your cart.`)
               }}
             >
-              Add
+              {book.upcoming ? 'Pre-order' : 'Add'}
             </button>
           ) : (
-            <span className="pill pill-danger">Sold out</span>
+            <Link to={`/books/${book._id}`} className="pill pill-danger">Sold out</Link>
           )}
         </div>
       </div>

@@ -11,16 +11,17 @@ export function ProtectedRoute({ children }) {
   return children
 }
 
-// Requires an admin; other signed-in users get a clear "not allowed" page.
-export function AdminRoute({ children }) {
+// Requires staff or admin (back office). With `admin`, only admins get in; other signed-in users get a clear "not allowed" page.
+export function StaffRoute({ children, admin = false }) {
   const { user, loading } = useAuth()
   const loc = useLocation()
   if (loading) return <PageSkeleton />
   if (!user) return <Navigate to="/login" replace state={{ from: loc.pathname }} />
-  if (user.role !== 'admin')
+  const ok = admin ? user.role === 'admin' : user.role === 'staff' || user.role === 'admin'
+  if (!ok)
     return (
       <div className="container page">
-        <EmptyState title="Admins only" text="Your account does not have access to this area." to="/" action="Back to the store" />
+        <EmptyState title={admin ? 'Admins only' : 'Staff only'} text="Your account does not have access to this area." to="/" action="Back to the store" />
       </div>
     )
   return children
