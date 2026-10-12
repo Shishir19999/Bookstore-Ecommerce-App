@@ -3,7 +3,8 @@ import { useSearchParams } from 'react-router-dom'
 import { useFetch, useTitle } from '../hooks'
 import BookCard from '../components/ProductItem'
 import { EmptyState, ErrorState, GridSkeleton } from '../ui/States'
-import { SORT_OPTIONS, money } from '../lib/format'
+import { FORMAT_LABEL, SORT_OPTIONS, money } from '../lib/format'
+import { FormatIcon } from '../ui/Parts'
 
 const PAGE_SIZE = 12
 const RATINGS = [4, 3, 2]
@@ -16,7 +17,7 @@ export default function Browse() {
   const get = (k) => params.get(k) || ''
   const search = get('search')
   const genre = get('genre')
-  const sort = get('sort') || (search ? 'title' : 'bestselling')
+  const sort = get('sort') || (search ? 'relevance' : 'bestselling')
   const page = Math.max(parseInt(get('page'), 10) || 1, 1)
 
   const apiParams = new URLSearchParams(params)
@@ -56,7 +57,10 @@ export default function Browse() {
   if (urlMin) chips.push(['minPrice', `From ${money(urlMin)}`])
   if (urlMax) chips.push(['maxPrice', `Up to ${money(urlMax)}`])
   if (get('minRating')) chips.push(['minRating', `${get('minRating')}+ stars`])
-  if (get('inStock')) chips.push(['inStock', 'In stock'])
+  if (get('format')) chips.push(['format', FORMAT_LABEL[get('format')] || get('format')])
+  if (get('series')) chips.push(['series', 'Series: ' + get('series').replace(/-/g, ' ')])
+  if (get('preorder')) chips.push(['preorder', 'Pre-orders'])
+  if (get('inStock')) chips.push(['inStock', 'Available now'])
 
   const facets = data
   const heading = genre || (search ? `Results for "${search}"` : 'All books')
@@ -67,6 +71,7 @@ export default function Browse() {
         <div>
           <h1 style={{ fontSize: 'clamp(1.6rem,4vw,2.3rem)', marginBottom: 2 }}>{heading}</h1>
           <p className="muted small" style={{ margin: 0 }} aria-live="polite">{data ? `${data.total} book${data.total === 1 ? '' : 's'}` : 'Loading...'}</p>
+          {data?.didYouMean && <p className="small" style={{ margin: '4px 0 0' }}>Did you mean <button type="button" className="linklike" onClick={() => update({ search: data.didYouMean })}>{data.didYouMean}</button>?</p>}
         </div>
         <div className="row">
           <button type="button" className="btn btn-sm filter-toggle" aria-expanded={showFilters} onClick={() => setShowFilters((s) => !s)}>
@@ -75,7 +80,7 @@ export default function Browse() {
           <label className="row small" style={{ gap: 6 }}>
             Sort by
             <select className="input" style={{ width: 'auto', minHeight: 36 }} value={sort} onChange={(e) => update({ sort: e.target.value })}>
-              {SORT_OPTIONS.map((o) => (
+              {(search ? [{ value: 'relevance', label: 'Best match' }, ...SORT_OPTIONS] : SORT_OPTIONS).map((o) => (
                 <option key={o.value} value={o.value}>{o.label}</option>
               ))}
             </select>
@@ -133,8 +138,19 @@ export default function Browse() {
             </div>
           </fieldset>
           <label className="row">
-            <input type="checkbox" checked={!!get('inStock')} onChange={(e) => update({ inStock: e.target.checked })} /> In stock only
+            <input type="checkbox" checked={!!get('inStock')} onChange={(e) => update({ inStock: e.target.checked })} /> Available now
           </label>
+          <label className="row">
+            <input type="checkbox" checked={!!get('preorder')} onChange={(e) => update({ preorder: e.target.checked })} /> Pre-orders only
+          </label>
+          <fieldset style={{ marginTop: 14 }}>
+            <legend>Edition</legend>
+            <div className="chip-list">
+              {(facets?.formats || []).map((f) => (
+                <button key={f} type="button" className="chip" aria-pressed={get('format') === f} onClick={() => update({ format: get('format') === f ? '' : f })}><FormatIcon type={f} /> {FORMAT_LABEL[f]}</button>
+              ))}
+            </div>
+          </fieldset>
         </aside>
 
         <section aria-label="Results">

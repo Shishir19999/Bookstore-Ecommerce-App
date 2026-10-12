@@ -1,4 +1,4 @@
-// Builds the sample catalog (fictional titles, authors and text) used by the seed script, the auto-seed on an
+// Builds the sample catalog (fictional titles, authors and text) used by the seed, the auto-seed on an
 // empty database and the browser demo. Deterministic: running it twice yields identical files.
 //   node scripts/make-catalog.js
 const fs = require('fs');
@@ -239,7 +239,7 @@ for (const [genre, list] of Object.entries(RAW)) {
 }
 
 const out = JSON.stringify({ books, reviews, genres: GENRE_BLURB }, null, 1);
-const targets = [path.join(__dirname, 'catalog.json'), path.join(__dirname, '..', '..', 'Frontend', 'src', 'demo', 'catalog.json')];
+const targets = [path.join(__dirname, '..', 'shared', 'catalog.json')]; // then run `npm run sync:shared`
 for (const t of targets) {
 	fs.mkdirSync(path.dirname(t), { recursive: true });
 	fs.writeFileSync(t, out);
